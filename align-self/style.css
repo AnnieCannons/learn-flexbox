@@ -27,7 +27,33 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 .box9 { background:#2ecc71;}
 .box10 { background:#16a085;}
 
-
+.container{
+  display: flex;
+  border:10px ridge royalblue;
+  height: 100vh;
+  align-items: flex-start;
+}
+.box{
+  width: 33.333%;
+}
+.box2{
+  padding-bottom: 60px;
+}
+.box4{
+  padding-bottom: 30px;
+}
+.box6{
+  padding-bottom: 0px;
+  align-self: center;
+}
+.box8{
+  padding-bottom: 70px;
+  align-self: flex-end;
+}
+.box10{
+  padding-bottom: 40px;
+  align-self: center;
+}
 /* We start writing out flexbox here. The above is just page setup */
 
 
