@@ -27,7 +27,30 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 .box9 { background:#2ecc71;}
 .box10 { background:#16a085;}
 
-
+.container{
+  display:flex;
+  border:10px ridge royalblue;
+align-items: center;
+height:100vh ;
+}
+/* here i wanted to see if even tho they are dint 
+sizes used to test baseline  cant i move it to center and 
+it still keep it size*/
+.box1{
+  font-size: 40px;
+}
+.box3{
+  font-size: 60px;
+}
+.box5{
+  font-size: 80px;
+}
+.box7{
+  font-size: 120px;
+}
+.box9{
+  font-size: 140px;
+}
 /* We start writing out flexbox here. The above is just page setup */
 
 /*
