@@ -258,7 +258,7 @@ input::-moz-focus-inner {
 }
 
 .box2 {
-  height: 100vh;
+  align-self:stretch;
 
 }
 
