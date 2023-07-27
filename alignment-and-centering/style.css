@@ -30,6 +30,20 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 
 /* We start writing out flexbox here. The above is just page setup */
 
+.container {
+display: flex;
+justify-content:space-between;
+min-height: 100vh; 
+flex-direction: column;
+border: 10px solid goldenrod;
+}
+
+.container {
+display: flex;
+border: 10px solid mistyrose;
+height: 100vh;  
+}
+
 /* 
 justify-content: flex-start;    --> it's the default
 
