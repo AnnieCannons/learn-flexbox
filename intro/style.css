@@ -28,4 +28,8 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 .box10 { background:#16a085;}
 
 
+.container{display: flex;
+border: 10px solid goldenrod;
+hight:100vh
+}
 /* We start writing out flexbox here. The above is just page setup */
