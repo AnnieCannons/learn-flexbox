@@ -32,7 +32,26 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 
 .container {
 display: flex;
-  
+border: 10px solid goldenrod;
+height: 100vh;  
+}
+
+.box {
+align-self: flex-start;
+width: 100vw;;
+}
+
+.box2 {
+height: 100vh;
+
+}
+
+.box6 {
+align-self:center;
+}
+
+.box9 {
+align-self:flex-end;  
 }
 
 
