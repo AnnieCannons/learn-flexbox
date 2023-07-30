@@ -15,7 +15,7 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
   padding:10px;
 }
 
-/* Colours for each box */
+/* Colors for each box */
 .box1 { background:#1abc9c;}
 .box2 { background:#3498db;}
 .box3 { background:#9b59b6;}
@@ -29,6 +29,20 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 
 
 /* We start writing out flexbox here. The above is just page setup */
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  border: 10px solid mistyrose;
+  flex-direction: column;
+  min-height: 100vh;
+
+}
+
+
+
+
+
 
 /* 
 justify-content: flex-start;    --> it's the default
