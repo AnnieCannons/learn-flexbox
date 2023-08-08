@@ -43,3 +43,10 @@ justify-content: space-between; --> it puts the first item on flex-start, last i
 
 justify-content: space-around;  --> it puts space around each item (left and right)
 */
+.container {
+  display: flex;
+  justify-content: space-between;
+  border: 10px solid mistyrose;
+  flex-direction: column;
+  min-height: 100vh;
+}
