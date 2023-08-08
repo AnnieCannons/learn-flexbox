@@ -55,3 +55,15 @@ align-content: center;          --> everything is centered vertically
 align-content: center;
 justify-content: center;        --> everything is centered vertically and horizontally
 */
+.container {
+  display: flex;
+  justify-content: space-between;
+  border: 10px solid mistyrose;
+  height: 100vh;
+  flex-direction: wrap;
+  align-content: space-between;
+}
+
+.box {
+  width: 33.333%;
+}
